@@ -46,7 +46,7 @@
   }
   .z3 {
     background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3e2a5dcd-6a82-4182-9032-d31b5d6db4d9/dcm3g53-93efc7b1-711d-4d9d-9c7f-132c71e31cac.jpg/v1/fill/w_1192,h_670,q_70,strp/sunset_run_by_vegacolors_dcm3g53-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0xMDgwIiwicGF0aCI6IlwvZlwvM2UyYTVkY2QtNmE4Mi00MTgyLTkwMzItZDMxYjVkNmRiNGQ5XC9kY20zZzUzLTkzZWZjN2IxLTcxMWQtNGQ5ZC05YzdmLTEzMmM3MWUzMWNhYy5qcGciLCJ3aWR0aCI6Ijw9MTkyMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.vznFg8mAMEjYHzYbELAAw0wsAHc3b_VgHcRK2ez5R5M');
-    height: 50rem;
+    height: 60rem;
   }
   body{
       font-family: 'Roboto Slab', serif;
@@ -487,4 +487,95 @@ h3{
   position: center;
   font-family: 'Roboto Slab', serif;
   font-size: 25px;
+}
+
+.box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 30px 0;
+}
+.box__content{
+  width: 70%;
+}
+.box__icon{
+  width: 100px;
+  height: 100px;
+  border: 2px solid #999;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  color: #EEAD33;
+}
+
+.main-footer{
+  background: #282828;
+  color: #828282;
+}
+.main-footer .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer__title{
+  font-size: 1.8em;
+  color: white;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 1000px;
+    margin: auto;
+  }
+  
+  .container-design .design__img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .container-design, .container-tips{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .design__item{
+    width: 50%;
+  }
+  .container-box{
+    width: 50%;
+  }
+  .container-tips {
+    height: 500px;
+  }
+  .container-tips .design__item{
+    height: 100%;
+  }
+  .container-tips .design__img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .column--50-25 {
+    width: 24%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1200px;
+  }
+  .design__title{
+    font-size: 2.5em;
+  }
+  .design__item{
+    height: 500px;
+  }
+}
+
+h4{
+  font: 5px;
+  font-family: 'Roboto Slab', serif;
 }
